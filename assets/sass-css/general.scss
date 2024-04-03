@@ -1,0 +1,44 @@
+$base-font: Roboto sans-serif;
+$title-size: 55px;
+$text-size: 16px;
+$font-weight-title: 700;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#FFF7D4;
+}
+.card-body{
+  text-align: center;
+}
+section{
+  min-height: 100vh;
+  font-family: $base-font;
+  font-size: $text-size;
+  padding-top: 60px;
+  h1{
+    font-size: $title-size;
+    font-weight: $font-weight-title;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+}
+
+hr{
+ margin-left:10%;
+ margin-right:10%;
+ border: none;
+ border-top: 4px double;
+}
+
+footer{
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-family: $base-font;
+  font-size: $text-size;
+  text-align: center;
+}

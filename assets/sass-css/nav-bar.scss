@@ -1,0 +1,14 @@
+$base-font: Roboto sans-serif;
+$nav-font-size: 17px;
+
+.navbar{
+  font-family: $base-font;
+  font-size: $nav-font-size;
+  background-color: #EEC759;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}

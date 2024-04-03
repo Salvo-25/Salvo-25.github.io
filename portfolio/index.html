@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://127.0.0.1:5500/portfolio/">
+    <meta property="og:title" content="Portfolio|Salvatore Di Dio">
+    <meta property="og:image" content="">
+    <title>Portfolio|Salvatore Di Dio</title>
+    <!-- Website icon -->
+    <link rel="icon" href="../assets/img/website-logo.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="../assets/MDB/css/mdb.min.css" />
+    <link rel="stylesheet" href="../assets/sass-css/general.css">
+    <link rel="stylesheet" href="../assets/sass-css/nav-bar.css">
+    <link rel="stylesheet" href="../assets/sass-css/style-portfolio.css">
+  </head>
+  <body>
+        <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light ">
+      
+      <!-- Container wrapper -->
+      <div class="container-lg">
+        <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbar-menu"
+            aria-controls="navbar-menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+      <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+      
+          <!-- Navbar logo -->
+          <img class="navbar-brand mt-2 mt-lg-0" src="../assets/img/website-logo.jpg" height="35" alt="website-logo" loading="lazy"/>
+
+          <!-- Left elements -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../">Home Page</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contattami</a>
+            </li>
+          </ul>
+          <!-- Left elements -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram fa-xl"></i>
+          </a>
+          <a class="text-reset me-3" href="https://it.linkedin.com/" target="_blank">
+            <i class="fab fa-linkedin fa-xl"></i>
+          </a>
+          <a class="text-reset me-3" href="https://github.com/" target="_blank">
+            <i class="fab fa-github fa-xl"></i>
+          </a>
+        </div>  
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!--Portfolio section-->
+    <section id="portfolio"> 
+      <h1>Portfolio</h1>
+      <!--Grid-->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mb-5">
+            <div class="card">
+              <img src="../assets/img/loading.jpg" class="card-img-top" alt="loading page"/>
+              <div class="card-body">
+                <h5 class="card-title">Progetto 1</h5>
+                <button type="button" class="btn btn-rounded disabled" data-mdb-ripple-init>
+                  <a href="">Visualizza</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mb-5"></div>
+          <div class="col-lg-5 mb-5">
+            <div class="card">
+              <img src="../assets/img/loading.jpg" class="card-img-top" alt="loading page"/>
+              <div class="card-body">
+                <h5 class="card-title">Progetto 2</h5>
+                <button type="button" class="btn btn-rounded disabled" data-mdb-ripple-init>
+                  <a href="">Visualizza</a>
+                </button>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+      <!--Grid-->
+    </section>
+    <!--Portfolio section-->
+    <hr>
+    <!--Contact form-->
+    <section id="contact-me">
+      <h1>Scrivimi</h1>
+      
+      <form class="row g-3" action="https://formspree.io/f/mleqlwyp" method="post">
+        <div class="col-md-4 mb-3">
+          <div class="form-outline" data-mdb-input-init>
+            <input type="text" class="form-control" id="validationDefault01" name="name" required />
+            <label for="validationDefault01" class="form-label">Nome</label>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="input-group form-outline" data-mdb-input-init>
+            <input type="email" class="form-control" id="validationDefaultUsername" name="email" aria-describedby="inputGroupPrepend2" required />
+            <label for="validationDefaultUsername" class="form-label">E-mail</label>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="form-outline" data-mdb-input-init>
+            <input type="text" class="form-control" id="validationDefault02" name="subject" required />
+            <label for="validationDefault01" class="form-label">Oggetto</label>
+          </div>
+        </div>  
+        <div class="col-md-12 mb-3">
+          <div class="form-outline" data-mdb-input-init>
+            <textarea class="form-control" id="validationTextarea" name="text" required></textarea>
+            <label for="validationTextarea" class="form-label">Scrivi email</label>
+          </div>
+        </div>
+        <div class="col-md-2 mx-auto">
+          <button class="btn btn-rounded btn-outline-dark btn-form" type="submit" data-mdb-ripple-init>
+            <i class="fas fa-paper-plane"></i>
+            Invia Messaggio
+          </button>
+        </div>
+      </form>
+    </section>
+    <!--Contact form-->
+
+    <footer>
+      <hr>
+      <p>Powered by Salvatore Di Dio</p>
+      <p>2024 All right reserved</p>
+      <hr>
+    </footer>
+
+    <script type="text/javascript" src="../assets/MDB/js/mdb.umd.min.js"></script>
+    <script type="text/javascript"></script>
+  </body>
