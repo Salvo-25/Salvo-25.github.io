@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://127.0.0.1:5500/portfolio/">
+    <meta property="og:url" content="https://salvo-25.github.io/portfolio/">
     <meta property="og:title" content="Portfolio|Salvatore Di Dio">
+    <meta property="og:image" content="../assets/img/og-img.jpg">
+    <meta property="og:description" 
+      content="Esplora la mia pagina portfolio per scoprire i miei lavori e le mie abilità.">
     <title>Portfolio|Salvatore Di Dio</title>
     <!-- Website icon -->
     <link rel="icon" href="../assets/img/website-logo.ico" type="image/x-icon" />
@@ -41,8 +44,10 @@
         <div class="collapse navbar-collapse" id="navbar-menu">
       
           <!-- Navbar logo -->
-          <img class="navbar-brand mt-2 mt-lg-0" src="../assets/img/website-logo.jpg" height="35" alt="website-logo" loading="lazy"/>
-
+          <a href="../index.html">
+            <img class="navbar-brand mt-2 mt-lg-0" src="../assets/img/website-logo.jpg" height="35" alt="website-logo" loading="lazy"/>
+          </a>
+          
           <!-- Left elements -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -115,30 +120,30 @@
     <hr>
     <!--Contact form-->
     <section id="contact-me">
-      <h1>Scrivimi</h1>
+      <h2>Scrivimi</h2>
       
       <form class="row g-3" action="https://formspree.io/f/mleqlwyp" method="post">
         <div class="col-md-4 mb-3">
-          <div class="form-outline" data-mdb-input-init>
-            <input type="text" class="form-control" id="validationDefault01" name="name" required />
+          <div data-mdb-input-init>
+            <input type="text" class="form-control input-box" id="validationDefault01" name="name" required />
             <label for="validationDefault01" class="form-label">Nome</label>
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="input-group form-outline" data-mdb-input-init>
-            <input type="email" class="form-control" id="validationDefaultUsername" name="email" aria-describedby="inputGroupPrepend2" required />
+          <div data-mdb-input-init>
+            <input type="email" class="form-control input-box" id="validationDefaultUsername" name="email" aria-describedby="inputGroupPrepend2" required />
             <label for="validationDefaultUsername" class="form-label">E-mail</label>
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="form-outline" data-mdb-input-init>
-            <input type="text" class="form-control" id="validationDefault02" name="subject" required />
+          <div data-mdb-input-init>
+            <input type="text" class="form-control input-box" id="validationDefault02" name="subject" required />
             <label for="validationDefault01" class="form-label">Oggetto</label>
           </div>
         </div>  
         <div class="col-md-12 mb-3">
-          <div class="form-outline" data-mdb-input-init>
-            <textarea class="form-control" id="validationTextarea" name="text" required></textarea>
+          <div data-mdb-input-init>
+            <textarea class="form-control input-box" id="validationTextarea" name="text" required></textarea>
             <label for="validationTextarea" class="form-label">Scrivi email</label>
           </div>
         </div>
