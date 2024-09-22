@@ -3,7 +3,7 @@
 Questo repository ospita il mio sito web personale,creato per il progetto su HTML&CSS di start2Impact.<br>
 
 ## Struttura Progetto
-Il sito è diviso in due pagine: la prima dove mi presento brevemente ed espongo competenze e hobby, la secondo che contiene la sezione portfolio. 
+Il sito è diviso in due pagine: la prima nella quale mi presento brevemente ed espongo competenze e hobby, la seconda contiene la sezione portfolio. 
 In fondo ad entrambe le pagine è presente un form contatti.
 Un design del sito responsivo permette l'utilizzo di quest'ultimo da ogni dispositivo.
 
